@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.mapWrapper {
+  height: 100vh;
+  position: relative;
+}
+
+#map-id {
+  height: 100%;
+}
+
+*::-webkit-scrollbar {
+  width: 4px;
+}
+*::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+}
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(64, 133, 207, 0.8);
+  outline: .5px solid lightgray;
+	border-radius: 2px;
+}
